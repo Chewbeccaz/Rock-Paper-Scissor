@@ -1,0 +1,72 @@
+body {
+  background-image: url("img/paper.jpg");
+}
+#wrapper {
+  background-color: rgb(178, 179, 171);
+  height: 500px;
+  width: 800px;
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1),
+    -3px -3px 6px rgba(255, 255, 255, 0.3);
+}
+
+#text-container {
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 38px;
+}
+
+#box-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button {
+  width: 100px;
+  height: 40px;
+  background-color: #515149;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #928f80;
+}
+
+#score-board {
+  border: 2px solid;
+  margin-top: 50px;
+  width: 600px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+#user-score,
+#computer-score {
+  border: 1px solid;
+  padding: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 32px;
+}
+
+#player1 h3,
+#computer h3 {
+  text-align: center;
+}
